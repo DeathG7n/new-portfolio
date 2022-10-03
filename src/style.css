@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color : rgb(218, 240, 255);
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+#container{
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+ul{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+ul>button{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(41, 41, 245);
+    border-radius: 5px;
+    color: white;
+}
+
+section{
+    margin: 80px 0;
+    padding: 0px 80px;
+}
+.hero h1{
+    font-size: 80px;
+}
+.hero-icons{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    position: relative;
+}
+#svg{
+    position: absolute;
+    right: 0;
+}
+ 
+.about{
+    display: flex;
+}
+
+.about > div{
+    width: 50%;
+}
+.about-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about-desc h1{
+    font-size: 40px;
+}
+.about-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.about-buttons button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(127, 246, 255);
+    backdrop-filter: blur(5px);
+    color: rgb(70, 140, 247);
+}
+.about-buttons button:hover{
+    background-color: rgb(41, 41, 245);
+    color: white;
+}
+.about-buttons :first-child{
+    background-color: rgb(41, 41, 245);
+    color: white;
+}
+.about-buttons :first-child:hover{
+    background-color: rgb(127, 246, 255);
+    color: rgb(70, 140, 247);
+}
+.projects > h1{
+    text-align: center;
+    margin-bottom: 10px;
+} 
+.project-cards{
+    width: auto;
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    scrollbar-width: none;
+    padding: 20px 5px;
+}
+.project-cards::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+}
+.project-card{
+    min-width: 720px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
+}
+.project-card-img{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #d5ddda;
+}
+.project-card-desc{
+    width: 55%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-card-desc small{
+    color: blue;
+    font-weight: 900;
+}
+.project-card-desc button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(41, 41, 245);
+    color: white;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contact h1{
+    font-size: 50px;
+}
+.contact button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100px;
+}
+footer h1{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    position: relative;
+}
