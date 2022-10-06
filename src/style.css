@@ -147,7 +147,8 @@ section{
     gap: 10px;
 }
 .about-buttons button{
-    width: 30%;
+    width: fit-content;
+    padding: 0 10px;
     height: 30px;
     border-radius: 5px;
     border: none;
